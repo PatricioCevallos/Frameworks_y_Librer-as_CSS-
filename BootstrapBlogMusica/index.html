@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width initial-scale=1, shrink-to-fit=no'>
+  <meta name='mobile-web-app-capable' content='yes'>
+  <link rel='stylesheet' href='css/bootstrap.min.css'>
+  <link rel='stylesheet' href='css/estilos.css'>
+
+  <script src='js/bootstrap.min.js'></script>
+  <title>BLOG DE MUSICA CON BOOTSTRAP</title>
+</head>
+<body>
+
+  <div class="container">
+
+    <header>
+      <div class="row justify-content-between">
+        <div class="col-12 col-md-3 col-lg-4 text-lg-left text-md-center text-sm-center text-center"><img src="img/LOGOMUSICA3.jpg" alt="logo" class="img-fluid"></div>
+        <div class="col-12 col-md-4 align-self-end text-lg-right mr-3 text-md-center text-sm-center text-center" style="color: #004d40 " id="social">
+          <a href="https://www.facebook.com" target="_blank"><img src="img/Facebook.png" alt="Facebook"></a>
+          <a href="https://www.twitter.com" target="_blank"><img src="img/Twitter.png" alt="twitter"></a>
+          <a href="https://www.youtube.com" target="_blank"><img src="img/Youtube.png" alt="youtube"></a>
+          <a href="https://www.instragram.com" target="_blank"><img src="img/Instagram.png" alt="instagram"></a>
+        </div>
+      </div>
+    </header>
+  <nav class="nav nav-pills nav-fill ">
+      <a class="nav-item nav-link bg-secondary active" href="#">Inicio</a>
+      <a class="nav-item nav-link btn-outline-dark" href="#">Artistas</a>
+      <a class="nav-item nav-link btn-outline-dark" href="#">Grupos Musicales</a>
+      <a class="nav-item nav-link btn-outline-dark" href="#">Las Mejores</a>
+      <a class="nav-item nav-link btn-outline-dark" href="#">Letras de Canciones</a>
+      <a class="nav-item nav-link btn-outline-dark" href="#">Acordes y Acompañamientos</a>
+    </nav>
+
+    <div class="row mt-3 ">
+      <div class="col-md-9 col-lg-9 bg-light">
+        <div class="row">
+          <div class="col-sm-12 col-md-8 order-1">
+            <h5><b>Música Ecuatoriana</b></h5>
+            <p class="text-justify">
+              Los ritmos tradicionales del Ecuador presentan influencia autóctona, europea y africana. De la música indígena, anterior al período colonial, apenas se han encontrado, huesos o plumas de ave en los instrumentos de viento -dulzainas, ocarinas, flautas de pan, rondadores; troncos, pieles de animales curtidas, lascas minerales para los de percusión -bombos, cajas, primitivos xilófonos.
+              <br>
+              La música en el Ecuador ha ido evolucionando notablemente a través de los tiempos, y en la actualidad los ritmos modernos foráneos han ido fusionándose con ritmos autóctonos incorporando instrumentos electrónicos al acompañamiento musical tradicional ecuatoriano (sanjuanito o pasacalle).
+              <br>
+              De la misma manera, diversos géneros musicales foráneos tienen representantes en el Ecuador, acrecentando aún más la gama musical del país. En todo el→ país se escucha la música nacional en el Ecuador.
+            </p>
+
+          </div>
+          <div class="col-sm-12 col-md-4 order-2"><img src="img/post_JulioJ.jpg" alt="Mayor_exponente"></div>
+          <div class="col order-3 mt-3">
+            <form class="form-group">
+              <div class="input-group">
+                <div class="input-group-addon mr-3 ">
+                  <img src="img/Nota.png" alt="Comentarios">
+                </div>
+                <input type="text" class="form-control " name="comment" placeholder="Comentario."></div>
+            </form>
+          </div>
+        </div>
+
+
+        <div class="row mt-3 ">
+          <div class="col-sm-12 col-md-8 order-2">
+            <h5><b>Mayor representates de la música ecuatoriana</b></h5>
+            <p class="text-justify">
+              <b><i>Julio Jaramillo:</i></b> <br>
+              (Guayaquil, 1935 - 1978) Cantante ecuatoriano. Conocido con los apodos de El Ruiseñor de América y Míster Juramento, Julio Jaramillo es considerado el mejor cantante ecuatoriano de todos los tiempos. Sus canciones, que hablan de amores y desencuentros, calaron profundamente en el público que se reflejaba en ellas. Muchos consideran a este cantante como uno de los símbolos de la identidad nacional. Sus melodías, entre las que cabe mencionar De cigarro en cigarro, Alma mía, Interrogación, Odio en la sangre, Te odio y te quiero, Carnaval de la vida o Cuando llora mi guitarra, todavía se escuchan en las radios de Latinoamérica.
+              <br>
+              <b><i>Hermanos Miño Naranjo:</i></b> <br>
+              Los consagrados hermanos Eduardo y Danilo Miño Naranjo, quienes han paseado su arte por los escenarios del mundo interpretando nuestros pasillos serán reconocidos internacionalmente con oportunidad de cumplir 50 años de vida artística.
+              <br>
+            </p>
+          </div>
+          <div class="col-sm-23 col-md-4 order-1"><img class="img-fluid" src="img/post_musicaecu.jpg" alt="Musica_ecuatoriana"></div>
+          <div class="col order-3 ">
+            <form class="form-group bg-pr">
+              <div class="input-group">
+                <div class="input-group-addon mr-3">
+                <img src="img/Nota.png" alt="Comentarios">
+                </div>
+                <input type="text" class="form-control" name="comment" placeholder="Comentario."></div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- buscar -->
+      <div class="col-3 bg-light d-none d-sm-none d-md-block">
+        <form class="form-group bg-grey rounded">
+          <div class="input-group ">
+            <div class="input-group-prepend">
+              <div class="input-group-text round-5 bg-white"><img src="img/search.png" alt="Buscar"></div>
+            </div>
+            <input type="text" class="form-control round-5" id="search">
+          </div>
+          <label for="search" class="ml-3">Buscar</label>
+        </form>
+
+        <!-- OPTIONS SEARCH -->
+        <div class="list-group ">
+          <a href="#" class="list-group-item list-group-item-action ">Artista más destacado</a>
+          <a href="#" class="list-group-item list-group-item-action">Grupos nacionales</a>
+          <a href="#" class="list-group-item list-group-item-action">Canciones más destacadas</a>
+          <a href="#" class="list-group-item list-group-item-action">Acordes por canciones</a>
+          <a href="#" class="list-group-item list-group-item-action disabled">Notas musicales</a>
+          <a href="#" class="list-group-item list-group-item-action ">Grupos musicales más buscados</a>
+          <a href="#" class="list-group-item list-group-item-action">La música ecuatoriana en el exterior</a>
+          <a href="#" class="list-group-item list-group-item-action">Intérpretes de la música ecuatoriana</a>
+          <a href="#" class="list-group-item list-group-item-action">Top 10</a>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  </div>
+</body>
+</html>
